@@ -541,10 +541,8 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 //      -takes in a 'to' address, tokenId, and tokenURI as parameters
 //      -returns a true boolean upon completion of the function
 //      -calls the superclass mint and setTokenURI functions
-contract PropertyTitleERC721Token is ERC721Metadata {
-
+contract RealEstateERC721Token is ERC721Metadata {
     constructor() public ERC721Metadata("PropertyTitle", "PYT", "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/") {}
-
     function mint(address to, uint256 tokenId) public onlyOwner returns (bool) {
         _mint(to, tokenId);
         setTokenURI(tokenId);

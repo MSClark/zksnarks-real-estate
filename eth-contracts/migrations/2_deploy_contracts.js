@@ -1,5 +1,5 @@
 // migrating the appropriate contracts
-var SquareVerifier = artifacts.require("./SquareVerifier.sol");
+var SquareVerifier = artifacts.require("./Verifier.sol");
 var SolnSquareVerifier = artifacts.require("./SolnSquareVerifier.sol");
 var RealEstateERC721Token = artifacts.require("./RealEstateERC721Token.sol");
 

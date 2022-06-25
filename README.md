@@ -29,3 +29,5 @@ Addr: 0x470eBa3D8201CFa52Cc77acd419026A8Aa790E45
 Deploying account: 0x63937A216fe075Dfc055c42E7Bd5aC934Ab461b5
 
 Purchasing account: 0xaA012c9F6B4e2dADDe476808369B872654fA4FF8
+
+How to test: start an instance of ganache CLI, navigate to the eth-contracts folder and run `truffle test`
